@@ -8,6 +8,9 @@ const app = express();
 
 connectDB();
 
+// Body Parser Middleware
+app.use(express.json({extended: false}));
+
 app.get('/', (req, res) => {
   res.json({msg: 'Welcome to your brand new Contact API'});
 });
