@@ -1,5 +1,5 @@
 {
-  "name": "contact-keeper-MERN",
+  "name": "contact-keeper",
   "version": "1.0.0",
   "description": "MERN Contact application",
   "main": "server.js",
