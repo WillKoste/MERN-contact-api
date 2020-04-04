@@ -1,5 +1,5 @@
 import React, {useState, useContext, useEffect} from 'react';
-import AlertContext from '../../context/alert/alertContext'
+import AlertContext from '../../context/alert/alertContext';
 import AuthContext from '../../context/auth/authContext';
 
 const Register = (props) => {
@@ -7,7 +7,6 @@ const Register = (props) => {
   const authContext = useContext(AuthContext);
 
   const {setAlert} = alertContext;
-  
   const {register, error, clearErrors, isAuthenticated} = authContext;
 
   useEffect(() => {
